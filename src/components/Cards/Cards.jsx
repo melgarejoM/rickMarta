@@ -1,7 +1,9 @@
-import Card from './Card';
-
+import Card from '../Card/Card';
+import styles from '../Cards/Cards.module.css';
 export default function Cards({characters}) {
-   return (<div>
+   
+   return (<div className={styles.flexContainer}>
+      
       {characters.map(character =>
          <Card
          key = {character.id}
