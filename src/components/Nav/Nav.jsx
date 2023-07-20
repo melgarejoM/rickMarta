@@ -11,6 +11,9 @@ function Nav({onSearch}){
             </button>
             
             <button>
+                <Link to= '/Favorites' className={style.button}>🤍</Link>
+            </button>
+            <button>
             <Link to='/about' className={style.button}>About</Link>
             </button>
             

@@ -9,6 +9,7 @@
     border: 1px solid #84600b;
     display:flex ;
     flex-direction:column;
+    justify-content: space-between;
     box-shadow: -11px -12px 20px -4px rgba(140,88,26,0.75);
 }
 .closeButton{
@@ -19,8 +20,8 @@
     height:fit-content;
     border-radius: 5px;
     transition: 0.2s;
+    margin-right: 15px; /* Agrega esta línea para separar los botones */
     
-
 }
 .closeButton:hover{
     box-shadow: -5px -5px 0px -2px rgb(85, 41, 5);
